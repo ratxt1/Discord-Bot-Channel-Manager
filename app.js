@@ -34,7 +34,7 @@ client.on('message', msg => {
         msg.channel.setParent(channelIDs[newChannel])
       }
     }
-    
+
     if (msg.content === '!parent') {
       console.log(msg.channel.parentID)
     }
@@ -44,7 +44,7 @@ client.on('message', msg => {
    
   }
 });
-client.login('NDk0OTU3OTY0MTEzODcwODY4.Do7FXA.How5nanbv5G71qDKGIQuXfYjMv0');
+client.login([INSERT BOT TOKEN HERE]);
 
 function isWhitelisted(author) {
   for (let i = 0; i < whiteListedUsers.length; i++) {
